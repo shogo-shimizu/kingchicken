@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.contactButton {
+  padding: 5px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(245, 8, 8, 0.9);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 0 5px black; }
+  @media screen and (min-width: 480px) {
+    .contactButton {
+      padding: 10px; } }
+  .contactButton p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px; }
+    @media screen and (min-width: 480px) {
+      .contactButton p {
+        font-size: 20px; } }
+    .contactButton p a {
+      text-decoration: none;
+      color: #EEA800; }
+
+header {
+  width: 100%;
+  margin-bottom: 10px; }
+  header h2 {
+    margin: 0;
+    font-size: 14px;
+    padding-left: 50px; }
+    @media screen and (min-width: 480px) {
+      header h2 {
+        font-size: 18px;
+        padding-left: 100px;
+        margin-top: 50px; } }
+  header h1 {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 50px; }
+    @media screen and (min-width: 480px) {
+      header h1 {
+        font-size: 24px;
+        margin-bottom: 50px;
+        padding-left: 100px; } }
+
+main .fc__image {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden; }
+  main .fc__image img {
+    width: 100%; }
+main .contents {
+  width: 100%; }
+  @media screen and (min-width: 480px) {
+    main .contents {
+      margin-top: 100px; } }
+  main .contents .topic {
+    width: 80%;
+    margin: 50px auto; }
+    main .contents .topic h2 {
+      font-size: 16px; }
+      @media screen and (min-width: 480px) {
+        main .contents .topic h2 {
+          font-size: 24px; } }
+    main .contents .topic p {
+      font-size: 12px; }
+      @media screen and (min-width: 480px) {
+        main .contents .topic p {
+          font-size: 20px; } }
+  main .contents .owners {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    main .contents .owners__container {
+      background-color: #f3f3f3;
+      padding: 10px;
+      margin-top: 20px;
+      width: 100%;
+      max-width: 350px; }
+    main .contents .owners__title {
+      font-size: 18px;
+      margin: 50px auto;
+      width: 100%; }
+      @media screen and (min-width: 480px) {
+        main .contents .owners__title {
+          font-size: 24px;
+          margin-top: 100px; } }
+    main .contents .owners__name {
+      font-size: 14px; }
+      @media screen and (min-width: 480px) {
+        main .contents .owners__name {
+          font-size: 20px; } }
+    main .contents .owners__location {
+      font-size: 10px; }
+      @media screen and (min-width: 480px) {
+        main .contents .owners__location {
+          font-size: 16px; } }
+    main .contents .owners__comment__title {
+      font-size: 10px; }
+    main .contents .owners__comment {
+      font-size: 12px; }
+      @media screen and (min-width: 480px) {
+        main .contents .owners__comment {
+          font-size: 16px; } }
+
+footer {
+  width: 100%;
+  background: #e4dddd;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px; }
+  footer div {
+    margin-bottom: 10px; }
+  footer .sns {
+    display: flex;
+    gap: 5px; }
+    footer .sns a {
+      text-decoration: none;
+      color: gray; }
+    footer .sns p {
+      font-size: 8px;
+      margin: 0; }
+  footer .info {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap; }
+    footer .info p {
+      font-size: 8px;
+      margin: 0; }
+    footer .info a {
+      text-decoration: none;
+      color: gray; }
+  footer .copy p {
+    font-size: 4px;
+    margin: 0; }
+
+.button15 {
+  height: 70px;
+  width: 100%; }
+
+.button15 a {
+  display: block;
+  position: relative;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #cccccc;
+  border-radius: 50vh;
+  transition: 0.3s; }
+
+.button15 a::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-radius: 50vh; }
+
+.button15 a::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  transform: rotate(-135deg);
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333; }
+
+.button15 a:hover {
+  text-decoration: none;
+  background-color: #cccccc; }
+
+/*# sourceMappingURL=fc.css.map */

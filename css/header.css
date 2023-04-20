@@ -1,0 +1,257 @@
+#header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/images/webp/main-top2.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  #header .whiteShadow {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 60%, white 90%); }
+  #header .mainlogo {
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+    z-index: 1000; }
+    @media screen and (min-width: 480px) {
+      #header .mainlogo {
+        width: 150px;
+        height: 150px; } }
+    #header .mainlogo img {
+      width: 100%; }
+  #header .navButton {
+    width: 45px;
+    height: 45px;
+    background-color: #EEA800;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 0 4px black; }
+    @media screen and (min-width: 480px) {
+      #header .navButton {
+        width: 100px;
+        height: 100px; } }
+  #header .title {
+    width: auto;
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: rgba(245, 8, 8, 0.4);
+    padding: 10px 5px 5px 5px;
+    border-radius: 3px; }
+    @media screen and (min-width: 480px) {
+      #header .title {
+        padding: 20px 15px 15px 15px;
+        left: 10%; } }
+    #header .title h2 {
+      font-size: 16px;
+      margin: 0;
+      line-height: 2;
+      letter-spacing: 2px;
+      text-shadow: black 2px 0 5px; }
+      @media screen and (min-width: 480px) {
+        #header .title h2 {
+          font-size: 32px; } }
+    #header .title h1 {
+      font-size: 28px;
+      margin: 0;
+      line-height: 2;
+      letter-spacing: 4px;
+      text-shadow: black 2px 0 10px; }
+      @media screen and (min-width: 480px) {
+        #header .title h1 {
+          font-size: 42px; } }
+      #header .title h1 span {
+        font-size: 16px;
+        letter-spacing: normal; }
+    #header .title .englishTitle {
+      font-size: 8px;
+      margin: 0;
+      letter-spacing: 1px;
+      font-family: Georgia; }
+
+.navMenu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 90;
+  left: 0;
+  top: 0;
+  pointer-events: none; }
+  .navMenu__top {
+    opacity: 0;
+    width: 80%;
+    max-width: 340px;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateY(-120%) translateX(-50%);
+    transition: 1s ease-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    .navMenu__top img {
+      width: 75%;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 340px; }
+    .navMenu__top p {
+      text-align: center;
+      font-size: 10px;
+      color: white;
+      text-shadow: gold 2px 0 10px;
+      margin: 0;
+      transform: translateY(-40px); }
+    .navMenu__top h1 {
+      text-align: center;
+      font-size: 26px;
+      color: white;
+      text-shadow: gold 2px 0 10px;
+      margin: 0;
+      transform: translateY(-40px); }
+  .navMenu__bottom {
+    opacity: 0;
+    width: 100%;
+    max-width: 450px;
+    height: 70%;
+    max-height: 530px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(100%) translateX(-50%);
+    transition: 1s ease-out;
+    color: #E13816;
+    z-index: 120;
+    pointer-events: all; }
+    .navMenu__bottom img {
+      width: 100%;
+      max-width: 450px;
+      padding-top: 20px; }
+    .navMenu__bottom__nav {
+      width: 90%;
+      margin: -55px auto 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      padding: 0px 10%;
+      cursor: hand; }
+      .navMenu__bottom__nav h3 {
+        font-size: 24px; }
+        @media screen and (min-width: 480px) {
+          .navMenu__bottom__nav h3 {
+            font-size: 24px; } }
+  .navMenu .navMenu__top.menuActive {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%); }
+    @media screen and (min-height: 900px) {
+      .navMenu .navMenu__top.menuActive {
+        transform: translateY(15%) translateX(-50%); } }
+  .navMenu .navMenu__bottom.menuActive {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%); }
+    @media screen and (min-height: 900px) {
+      .navMenu .navMenu__bottom.menuActive {
+        transform: translateY(-10%) translateX(-50%); } }
+  .navMenu .nav {
+    writing-mode: vertical-rl;
+    box-sizing: border-box;
+    cursor: pointer;
+    cursor: hand; }
+    .navMenu .nav:hover {
+      color: #EEA800;
+      transform: translateY(5px);
+      transition: 500ms; }
+    .navMenu .nav h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 18px; }
+      @media screen and (min-width: 480px) {
+        .navMenu .nav h3 {
+          font-size: 18px; } }
+
+.navActive {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.3; }
+
+.btn {
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+  cursor: pointer; }
+
+.btn__text {
+  display: block;
+  margin-top: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.btn__menu {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition: all 0.2s;
+  transform: translate(-50%, -50%);
+  cursor: pointer; }
+
+.btn__menu::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: all 0.2s; }
+
+.btn__menu::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: all 0.2s; }
+
+.btn__menu.active {
+  background: transparent; }
+
+.btn__menu.active::before {
+  top: 0;
+  transform: rotate(-45deg); }
+
+.btn__menu.active::after {
+  bottom: 0;
+  transform: rotate(45deg); }
+
+/*# sourceMappingURL=header.css.map */

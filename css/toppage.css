@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fot-chiaro-std, sans-serif; }
+
+#info {
+  position: absolute;
+  z-index: -999;
+  top: -100%;
+  left: -100%;
+  opacity: 0; }
+
+.gradationCover {
+  color: red;
+  width: 100%;
+  height: 130vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  pointer-events: none;
+  background: linear-gradient(-45deg, rgba(238, 169, 0, 0.3) 20%, rgba(255, 255, 255, 0) 70%); }
+
+main .contentTitle {
+  width: 40%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: 150px; }
+  @media screen and (min-width: 480px) {
+    main .contentTitle {
+      margin-bottom: 100px; } }
+  main .contentTitle div:first-of-type {
+    padding-top: 10px; }
+  main .contentTitle div:nth-of-type(2) {
+    padding-top: 40px; }
+    @media screen and (min-width: 480px) {
+      main .contentTitle div:nth-of-type(2) {
+        padding-top: 80px; } }
+  main .contentTitle div {
+    width: auto; }
+  main .contentTitle h3 {
+    writing-mode: vertical-rl;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1px; }
+    @media screen and (min-width: 480px) {
+      main .contentTitle h3 {
+        font-size: 32px; } }
+main .contents {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%; }
+  main .contents .kodawari-img {
+    width: 90%;
+    margin: 50px auto; }
+    main .contents .kodawari-img img {
+      width: 100%; }
+    main .contents .kodawari-img picture {
+      width: 100%; }
+  main .contents .kodawari {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    main .contents .kodawari h2 {
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 3px; }
+      @media screen and (min-width: 480px) {
+        main .contents .kodawari h2 {
+          font-size: 32px; } }
+      main .contents .kodawari h2 span {
+        font-size: 25px;
+        background-color: #E13816;
+        color: white;
+        padding: 2px 0 2px 2px; }
+        @media screen and (min-width: 480px) {
+          main .contents .kodawari h2 span {
+            font-size: 48px; } }
+    main .contents .kodawari p {
+      font-size: 12px; }
+      @media screen and (min-width: 480px) {
+        main .contents .kodawari p {
+          font-size: 18px;
+          text-align: center; } }
+  main .contents .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    main .contents .menu__wrap {
+      width: 45%;
+      max-width: 320px;
+      margin-bottom: 50px; }
+    main .contents .menu__image {
+      width: 90%;
+      margin: 0 auto;
+      overflow: hidden; }
+      main .contents .menu__image img {
+        width: 100%;
+        vertical-align: top; }
+      main .contents .menu__image picture {
+        width: 100%;
+        vertical-align: top; }
+    main .contents .menu__image-karasa {
+      border-radius: 0;
+      box-shadow: none; }
+    main .contents .menu__price {
+      margin-top: 5px;
+      text-align: center; }
+      main .contents .menu__price h4 {
+        margin: 10px 0 0 0;
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px; }
+        @media screen and (min-width: 480px) {
+          main .contents .menu__price h4 {
+            font-size: 18px; } }
+      main .contents .menu__price h5 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0;
+        text-align: center; }
+        @media screen and (min-width: 480px) {
+          main .contents .menu__price h5 {
+            font-size: 14px; } }
+      main .contents .menu__price h6 {
+        margin: 0;
+        color: gray;
+        line-height: 12px; }
+      main .contents .menu__price p {
+        margin: 0;
+        font-size: 14px;
+        text-align: center; }
+        @media screen and (min-width: 480px) {
+          main .contents .menu__price p {
+            font-size: 14px; } }
+  main .contents__item {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #eea900;
+    padding: 30px 0; }
+    main .contents__item:first-of-type {
+      border-top: solid 2px #eea900; }
+    main .contents__item .item__date {
+      width: 30%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .contents__item .item__date p {
+        margin: 0;
+        font-size: 14px; }
+        @media screen and (min-width: 480px) {
+          main .contents__item .item__date p {
+            font-size: 18px; } }
+    main .contents__item .item__content {
+      width: 70%; }
+      main .contents__item .item__content h3 {
+        font-size: 18px;
+        font-weight: bold; }
+        @media screen and (min-width: 480px) {
+          main .contents__item .item__content h3 {
+            font-size: 24px; } }
+      main .contents__item .item__content p {
+        font-size: 14px;
+        line-height: 16px; }
+        @media screen and (min-width: 480px) {
+          main .contents__item .item__content p {
+            font-size: 18px; } }
+        main .contents__item .item__content p img {
+          width: 80%;
+          height: auto;
+          border-radius: 5px;
+          max-width: 300px; }
+      main .contents__item .item__content img {
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        max-width: 300px; }
+  main .contents .tenpo-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  main .contents .tenpo {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 0 60px 0;
+    text-align: center; }
+    main .contents .tenpo img {
+      text-align: center;
+      width: 80%;
+      box-shadow: 2px 0 5px black;
+      border-radius: 3px; }
+    main .contents .tenpo picture {
+      text-align: center;
+      width: 80%;
+      box-shadow: 2px 0 5px black;
+      border-radius: 3px; }
+    main .contents .tenpo h2 {
+      text-align: center;
+      margin: 0;
+      font-size: 20px; }
+      @media screen and (min-width: 480px) {
+        main .contents .tenpo h2 {
+          font-size: 28px; } }
+    main .contents .tenpo p {
+      text-align: center;
+      margin: 0;
+      font-size: 10px; }
+      @media screen and (min-width: 480px) {
+        main .contents .tenpo p {
+          font-size: 14px; } }
+      main .contents .tenpo p a {
+        text-decoration: none;
+        color: brown; }
+main .fcInfo {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px; }
+  main .fcInfo h3 {
+    margin: 0;
+    font-size: 14px; }
+    @media screen and (min-width: 480px) {
+      main .fcInfo h3 {
+        font-size: 24px; } }
+  main .fcInfo h2 {
+    margin: 0;
+    font-size: 18px; }
+    @media screen and (min-width: 480px) {
+      main .fcInfo h2 {
+        font-size: 28px; } }
+  main .fcInfo a {
+    text-decoration: none; }
+  main .fcInfo__button {
+    width: 200px;
+    height: 70px;
+    margin: 25px auto;
+    border-radius: 35px;
+    background-color: #EEA800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: gold 0 0 10px;
+    color: #E13816;
+    cursor: pointer;
+    cursor: hand; }
+    main .fcInfo__button:hover {
+      opacity: 0.9;
+      color: white;
+      box-shadow: black 0 0 5px; }
+    main .fcInfo__button:active {
+      box-shadow: black 0 0 2px; }
+    main .fcInfo__button p {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+
+.apearInview {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 1.5s; }
+
+.apear {
+  opacity: 1;
+  transform: none; }
+
+#FlexWrap {
+  width: 100%; }
+
+/*# sourceMappingURL=toppage.css.map */

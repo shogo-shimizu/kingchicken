@@ -1,0 +1,199 @@
+.opening {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+  background-color: orange;
+  -webkit-animation: loading2_back 3000ms forwards ease;
+  animation: loading2_back 3000ms forwards ease; }
+
+@-webkit-keyframes loading2_back {
+  0% {
+    background-color: orange; }
+  50% {
+    background-color: white; }
+  90% {
+    background-color: white; }
+  100% {
+    background: none; } }
+@keyframes loading2_back {
+  0% {
+    background-color: orange; }
+  50% {
+    background-color: white; }
+  90% {
+    background-color: white; }
+  100% {
+    background: none; } }
+.loader2 {
+  pointer-events: all;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 25px;
+  -webkit-transform: translate(-50%, -50%) rotateY(45deg);
+  transform: translate(-50%, -50%) rotateY(45deg);
+  -webkit-transform-origin: center center 0;
+  transform-origin: center center 0;
+  width: 100vw;
+  height: 100vw;
+  border-radius: 50%;
+  background-image: url(../assets/images/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1; }
+
+@keyframes loading2 {
+  0% {
+    width: 100vw;
+    height: 100vw;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 0; }
+  50% {
+    width: 70%;
+    height: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg); }
+  70% {
+    width: 70%;
+    height: 70%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+    left: 50%;
+    top: 50%; }
+  90% {
+    width: 60px;
+    height: 60px;
+    transform: rotateY(720deg);
+    opacity: 1;
+    left: 3%;
+    top: 3%;
+    box-shadow: none; }
+  100% {
+    width: 60px;
+    height: 60px;
+    transform: none;
+    opacity: 1;
+    left: 3%;
+    top: 3%;
+    box-shadow: 0 0 5px white; } }
+@keyframes loading2_pc {
+  0% {
+    width: 300vw;
+    height: 300vw;
+    transform: translate(-50%, -50%);
+    opacity: 0; }
+  50% {
+    width: 70%;
+    height: 70%;
+    transform: translate(-50%, -50%) rotateY(0deg); }
+  70% {
+    width: 70%;
+    height: 70%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+    left: 50%;
+    top: 50%; }
+  90% {
+    width: 150px;
+    height: 150px;
+    transform: rotateY(360deg);
+    opacity: 1;
+    left: 3%;
+    top: 3%;
+    box-shadow: none; }
+  100% {
+    width: 150px;
+    height: 150px;
+    transform: none;
+    opacity: 1;
+    left: 3%;
+    top: 3%;
+    box-shadow: 0 0 5px black; } }
+.loader {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300vw;
+  height: 300vw;
+  background-color: linear-gradient(-45deg, rgba(238, 169, 0, 0.3) 20%, rgba(255, 255, 255, 0) 70%);
+  border-radius: 50%;
+  -webkit-animation: loading-outside 3000ms forwards;
+  animation: loading-outside 3000ms forwards; }
+  .loader img {
+    width: 100%; }
+  .loader:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    border: 0px solid white;
+    background-image: url(../assets/images/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    -webkit-animation: loading 3000ms ease-out forwards;
+    animation: loading 3000ms ease-out forwards; }
+
+@-webkit-keyframes loading {
+  0% {
+    border: 0px solid white; }
+  20% {
+    border: 100px solid white;
+    width: 0%;
+    height: 0%; }
+  80% {
+    border: 100px solid white;
+    width: 100%;
+    height: 100%;
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    display: none; } }
+@keyframes loading {
+  0% {
+    border: 0px solid white; }
+  20% {
+    border: 100px solid white;
+    width: 0%;
+    height: 0%; }
+  80% {
+    border: 100px solid white;
+    width: 100%;
+    height: 100%;
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    display: none; } }
+@-webkit-keyframes loading-outside {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 1;
+    background-color: orange; }
+  60% {
+    opacity: 0;
+    background-color: white; }
+  100% {
+    opacity: 0;
+    background-color: white; } }
+@keyframes loading-outside {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 1;
+    background-color: orange; }
+  60% {
+    opacity: 0;
+    background-color: white; }
+  100% {
+    opacity: 0;
+    background-color: white; } }
+
+/*# sourceMappingURL=opening.css.map */

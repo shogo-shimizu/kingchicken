@@ -1,0 +1,39 @@
+@import "colorSet";
+
+.progress{
+    background: linear-gradient($colorOrange,$colorRed);;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2000;
+    pointer-events: none;
+    img{
+        position: absolute;
+        width: 60%;
+        max-width: 250px;
+        left: 50%;
+        top: 20%;
+        transform: translateX(-50%);
+    }
+    &__bar{
+        border-top: 1px solid rgb(160,160,160);
+        position: absolute;
+        top: 60%;
+        width: 0%;
+        z-index: 2001;
+    }
+    &__text{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        margin-top: 10px;
+        position: absolute;
+        text-align: center;
+        top: 60%;
+        width: 100%;
+        z-index: 2001;
+    }
+}
+.progress-complete .progress__bar{
+    border-top-color: rgb(255,255,255);
+}
