@@ -469,8 +469,8 @@ $the_query = new WP_Query($args);
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
-                            <source srcset="assets/images/webp/nyuro.webp" type="image/webp">
-                            <img src="assets/images/nyuro.png" alt="">
+                            <source srcset="assets/images/webp/takana.webp" type="image/webp">
+                            <img src="assets/images/takana.png" alt="">
                         </picture>
                         <!-- <img src="assets/images/karaagebento.JPG" alt=""> -->
                     </div>
@@ -482,8 +482,8 @@ $the_query = new WP_Query($args);
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
-                            <source srcset="assets/images/webp/takana.webp" type="image/webp">
-                            <img src="assets/images/takana.png" alt="">
+                            <source srcset="assets/images/webp/nyuro.webp" type="image/webp">
+                            <img src="assets/images/nyuro.png" alt="">
                         </picture>
                         <!-- <img src="assets/images/karaagebento.JPG" alt=""> -->
                     </div>
