@@ -561,9 +561,9 @@ $the_query = new WP_Query($args);
                     <!-- <img src="./assets/images/shop-isesaki.JPG" alt=""> -->
                     <h2>伊勢崎店</h2>
                     <p>11:00 〜 19:00</p>
-                    <p>火曜定休</p>
+                    <p>年中無休</p>
                     <p>群馬県伊勢崎市宮子町3412-2</p>
-                    <p><a href="tel:08040083365">TEL:080-4008-3365</a></p>
+                    <p><a href="tel:"></a></p>
                 </div>
                 <div class="tenpo apearInview">
                     <picture>
