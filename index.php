@@ -435,7 +435,7 @@ $the_query = new WP_Query($args);
                         <!-- <img src="assets/images/karaagebento.JPG" alt=""> -->
                     </div>
                     <div class="menu__price">
-                        <h4>２種のからあげげ弁当</h4>
+                        <h4>２種のからあげ弁当</h4>
                         <p>¥620</p>
                     </div>
                 </div>
@@ -547,7 +547,7 @@ $the_query = new WP_Query($args);
                     <!-- <img src="./assets/images/shop-isesaki.JPG" alt=""> -->
                     <h2>伊勢崎店</h2>
                     <p>11:00 〜 19:00</p>
-                    <p>年中無休</p>
+                    <p>不定休</p>
                     <p>群馬県伊勢崎市宮子町3412-2</p>
                     <p><a href="tel:08011628829">TEL:080-1162-8829</a></p>
                 </div>
