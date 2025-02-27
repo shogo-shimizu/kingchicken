@@ -367,4 +367,12 @@ main .fcInfo__button p {
 
 #FlexWrap {
   width: 100%;
+}
+
+#karaagebou {
+  width: 90%;
+  margin: 0 auto;
+}
+#karaagebou img {
+  width: 100%;
 }/*# sourceMappingURL=toppage.css.map */

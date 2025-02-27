@@ -195,6 +195,11 @@ $the_query = new WP_Query($args);
                         <p>ハーフサイズ ¥350</p>
                     </div>
                 </div> -->
+                <!-- からあげ棒ようのコンテナ -->
+                                <div id="karaagebou">
+                                    <img src="assets/images/karaagebou.jpeg" alt="">
+                                </div>
+                <!-- からあげ棒ようのコンテナ終わり -->
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -225,6 +230,38 @@ $the_query = new WP_Query($args);
                         <p>6個入り¥430</p>
                         <p>8個入り¥580</p>
                         <h6>ヘルシーなむね肉のオリジナルからあげです。</h6>
+                    </div>
+                </div>
+
+
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/fishpotato.png" type="image/webp">
+                            <img src="assets/images/fishpotato
+                            .png" alt="">
+                        </picture>
+                        <!-- <img src="assets/images/nagets.JPG" alt=""> -->
+                    </div>
+                    <div class="menu__price">
+                        <h4>フィッシュ＆チップス</h4>
+                        <p>¥550</p>
+                        <h6>白身フライとポテトのコンビ</h6>
+                    </div>
+                </div>
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/nagetpotato.png" type="image/webp">
+                            <img src="assets/images/nagetpotato
+                            .png" alt="">
+                        </picture>
+                        <!-- <img src="assets/images/nagets.JPG" alt=""> -->
+                    </div>
+                    <div class="menu__price">
+                        <h4>ナゲット＆チップス</h4>
+                        <p>¥550</p>
+                        <h6>人気のナゲットとポテトをご一緒に</h6>
                     </div>
                 </div>
                 <div class="menu__wrap apearInview">
