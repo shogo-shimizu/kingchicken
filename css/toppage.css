@@ -372,7 +372,9 @@ main .fcInfo__button p {
 #karaagebou {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 #karaagebou img {
   width: 100%;
+  max-width: 600px;
 }/*# sourceMappingURL=toppage.css.map */
