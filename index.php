@@ -216,23 +216,39 @@ $the_query = new WP_Query($args);
                         <h6>香り高さが特徴のオリジナルからあげです。</h6>
                     </div>
                 </div>
+                
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
-                            <source srcset="assets/images/webp/menu_karaage.webp" type="image/webp">
-                            <img src="assets/images/menu_karaage.png" alt="">
+                            <source srcset="assets/images/paico.png" type="image/webp">
+                            <img src="assets/images/paico.png" alt="">
                         </picture>
-                        <!-- <img src="assets/images/karaage.JPG" alt=""> -->
+                        <!-- <img src="assets/images/nagets.JPG" alt=""> -->
                     </div>
                     <div class="menu__price">
-                        <h4>熟成からあげ<br>（むね肉）</h4>
-                        <p>4個入り¥290</p>
-                        <p>6個入り¥430</p>
-                        <p>8個入り¥580</p>
-                        <h6>ヘルシーなむね肉のオリジナルからあげです。</h6>
+                        <h4>排骨（パイコー）</h4>
+                        <p>¥400</p>
+                        <h6>一口サイズで食べやすい</h6>
                     </div>
                 </div>
-
+                
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/webp/menu_fpotato.webp" type="image/webp">
+                            <img src="assets/images/menu_fpotato.png" alt="">
+                        </picture>
+                        <!-- <img src="assets/images/potato.jpg" alt=""> -->
+                    </div>
+                    <div class="menu__price">
+                        <h4>フライドポテト</h4>
+                        <p>¥350</p>
+                        <h6>ほんのり甘みを感じられる希少価値の高い岩塩を使用しております。</h6>
+                        <!-- <h5>ハーフサイズ</h5> -->
+                        <p>ハーフサイズ ¥180</p>
+                    </div>
+                </div>
 
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
@@ -264,50 +280,50 @@ $the_query = new WP_Query($args);
                         <h6>人気のナゲットとポテトをご一緒に</h6>
                     </div>
                 </div>
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
-                            <source srcset="assets/images/paico.png" type="image/webp">
-                            <img src="assets/images/paico.png" alt="">
+                            <source srcset="assets/images/webp/menu_torikawa.webp" type="image/webp">
+                            <img src="assets/images/menu_torikawa.png" alt="">
                         </picture>
-                        <!-- <img src="assets/images/nagets.JPG" alt=""> -->
                     </div>
                     <div class="menu__price">
-                        <h4>排骨（パイコー）</h4>
-                        <p>¥400</p>
-                        <h6>一口サイズで食べやすい</h6>
+                        <h4>とり皮</h4>
+                        <p>¥150</p>
+                        <h6>サクッと香ばしい人気の一品</h6>
                     </div>
                 </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <!-- <picture>
-                            <source srcset="assets/images/tonkatu" type="image/webp">
-                            <img src="assets/images/tonkatu.png" alt="">
-                        </picture> -->
-                        <img src="assets/images/tonkatu.png" alt="">
-                    </div>
-                    <div class="menu__price">
-                        <h4>とんかつ（３枚）</h4>
-                        <p>¥390</p>
-                        <h6>ヒレとロースの２層とんかつ</h6>
-                    </div>
-                </div>
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
-                            <source srcset="assets/images/webp/menu_fpotato.webp" type="image/webp">
-                            <img src="assets/images/menu_fpotato.png" alt="">
+                            <source srcset="assets/images/webp/menu_naget.webp" type="image/webp">
+                            <img src="assets/images/menu_naget.png" alt="">
                         </picture>
-                        <!-- <img src="assets/images/potato.jpg" alt=""> -->
                     </div>
                     <div class="menu__price">
-                        <h4>フライドポテト</h4>
-                        <p>¥350</p>
-                        <h6>ほんのり甘みを感じられる希少価値の高い岩塩を使用しております。</h6>
-                        <!-- <h5>ハーフサイズ</h5> -->
-                        <p>ハーフサイズ ¥180</p>
+                        <h4>台湾チキンナゲット</h4>
+                        <p>¥300</p>
+                        <h6>肉厚ジューシー！スパイシー！</h6>
                     </div>
                 </div>
+
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/webp/menu_cpotato.webp" type="image/webp">
+                            <img src="assets/images/menu_cpotato.png" alt="">
+                        </picture>
+                        <!-- <img src="assets/images/tebasaki.JPG" alt=""> -->
+                    </div>
+                    <div class="menu__price">
+                        <h4>チーズポテト</h4>
+                        <p>¥300</p>
+                        <h6>チーズの旨味の一口スナック</h6>
+                    </div>
+                </div>
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -319,22 +335,40 @@ $the_query = new WP_Query($args);
                     <div class="menu__price">
                         <h4>ハッシュドポテト</h4>
                         <p>¥160</p>
-                    </div>
-                </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <picture>
-                            <source srcset="assets/images/webp/menu_cpotato.webp" type="image/webp">
-                            <img src="assets/images/menu_cpotato.png" alt="">
-                        </picture>
-                        <!-- <img src="assets/images/tebasaki.JPG" alt=""> -->
-                    </div>
-                    <div class="menu__price">
-                        <h4>チーズポテト</h4>
-                        <p>¥350</p>
+                        <h6>カリッ！ホクホク！アツアツ！</h6>
                     </div>
                 </div>
                 
+
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/webp/menu_nankotu.webp" type="image/webp">
+                            <img src="assets/images/menu_nankotu.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="menu__price">
+                        <h4>ナンコツ</h4>
+                        <p>¥330</p>
+                        <h6>コリコリ食感がたまりません！</h6>
+                    </div>
+                </div>
+                
+            
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/webp/menu_siohoru.webp" type="image/webp">
+                            <img src="assets/images/menu_siohoru.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="menu__price">
+                        <h4>塩ほるもん</h4>
+                        <p>¥420</p>
+                        <h6>特製塩ダレに漬け込みました</h6>
+                    </div>
+                </div>
+               
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -345,44 +379,10 @@ $the_query = new WP_Query($args);
                     <div class="menu__price">
                         <h4>とろほるから揚げ</h4>
                         <p>¥420</p>
+                        <h6>ホルモンの旨味が味わえます</h6>
                     </div>
                 </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <picture>
-                            <source srcset="assets/images/webp/menu_siohoru.webp" type="image/webp">
-                            <img src="assets/images/menu_siohoru.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="menu__price">
-                        <h4>塩ほるもん</h4>
-                        <p>¥400</p>
-                    </div>
-                </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <picture>
-                            <source srcset="assets/images/webp/menu_torikawa.webp" type="image/webp">
-                            <img src="assets/images/menu_torikawa.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="menu__price">
-                        <h4>鶏皮</h4>
-                        <p>¥150</p>
-                    </div>
-                </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <picture>
-                            <source srcset="assets/images/webp/menu_nankotu.webp" type="image/webp">
-                            <img src="assets/images/menu_nankotu.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="menu__price">
-                        <h4>ナンコツ</h4>
-                        <p>¥300</p>
-                    </div>
-                </div>
+                
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -392,21 +392,11 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>砂肝</h4>
-                        <p>¥300</p>
+                        <p>¥330</p>
+                        <h6>コリっとした食感が美味しい</h6>
                     </div>
                 </div>
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <picture>
-                            <source srcset="assets/images/gomadango.png" type="image/webp">
-                            <img src="assets/images/gomadango.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="menu__price">
-                        <h4>胡麻団子(３個)</h4>
-                        <p>¥300</p>
-                    </div>
-                </div>
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -417,8 +407,26 @@ $the_query = new WP_Query($args);
                     <div class="menu__price">
                         <h4>チュロス</h4>
                         <p>各種¥350</p>
+                        <h6>
+                        カリッとサクッとなが〜い、おなじみのチュロス
+                        </h6>
                     </div>
                 </div>
+
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <picture>
+                            <source srcset="assets/images/gomadango.png" type="image/webp">
+                            <img src="assets/images/gomadango.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="menu__price">
+                        <h4>熱々胡麻団子(３個)</h4>
+                        <p>¥300</p>
+                        
+                    </div>
+                </div>
+                
             </div>
         </div>
         <div id="obento" class="contentTitle apearInview">
