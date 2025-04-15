@@ -638,6 +638,8 @@ $the_query = new WP_Query($args);
                     <p>群馬県伊勢崎市宮子町3412-2</p>
                     <p><a href="tel:08011628829">TEL:080-1162-8829</a></p>
                 </div>
+
+
                 <div class="tenpo apearInview">
                     <picture>
                         <!-- <source srcset="assets/images/webp/shop-isesaki.webp" type="image/webp"> -->
@@ -653,6 +655,23 @@ $the_query = new WP_Query($args);
                     <p>埼玉県児玉郡上里町金久保359-1</p>
                     <p><a href="tel:05088852946">TEL:050-8885-2946</a></p>
                 </div>
+
+                <div class="tenpo apearInview">
+                    <picture>
+                        <!-- <source srcset="assets/images/webp/shop-isesaki.webp" type="image/webp"> -->
+                        <img src="assets/images/S__195739651.jpg" alt="">
+                    </picture>
+                    <!-- <img src="./assets/images/shop-isesaki.JPG" alt=""> -->
+                    <h2>熊谷店</h2>
+                    <p>
+                        10:00 〜 20:30
+                    </p>
+                    <p>年中無休</p>
+                    <p>埼玉県熊谷市銀座2-245<br>ニットーモール1階フードコート内</p>
+                    <p><a href="tel:07091051452">TEL:070-9105-1452</a></p>
+                </div>
+
+
                 <div class="fcInfo">
                     <h3>店舗数拡大中</h3>
                     <h2>オーナー様を募集しております</h2>
