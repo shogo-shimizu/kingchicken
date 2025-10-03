@@ -69,6 +69,11 @@ main .contentTitle h3 {
     font-size: 32px;
   }
 }
+main .note {
+  font-size: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
 main .contents {
   width: 100%;
   margin: 0 auto;
