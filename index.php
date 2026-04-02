@@ -154,8 +154,7 @@ $the_query = new WP_Query($args);
                         <h4>王様鶏排</h4>
                         <p>¥600</p>
                         <h6>19種類のスパイスを36時間以上漬け込んだ巨大な台湾からあげ。</h6>
-                        <p>ハーフサイズ ¥330</p>
-                        <p>ひとくちサイズ ¥330</p>
+                        <p>ハーフサイズ ¥350</p> 
                     </div>
                 </div>
                 <div class="menu__wrap apearInview karasa">
@@ -233,22 +232,22 @@ $the_query = new WP_Query($args);
                     </div>
                 </div> -->
                 
-
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <!-- <picture>
                             <source srcset="assets/images/paico.png" type="image/webp">
                             <img src="assets/images/paico.png" alt="">
                         </picture> -->
-                        <img src="assets/images/tansio.png" alt="">
+                        <img src="assets/images/torimoyasi.png" alt="">
                     </div>
                     <div class="menu__price">
-                        <h4>厚切りタン塩</h4>
-                        <p>¥500</p>
-                        <h6>上質な国産ポークを使用</h6>
+                        <h4>とりもやし</h4>
+                        <p>¥600</p>
+                        <h6>シャキシャキもやしと鶏肉あんかけ</h6>
                     </div>
                 </div>
-                
+
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <!-- <picture>
@@ -259,7 +258,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>山賊焼き</h4>
-                        <p>¥600</p>
+                        <p>¥630</p>
                         <h6>長野の大人気郷土料理</h6>
                     </div>
                 </div>
@@ -276,10 +275,12 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>フィッシュ＆チップス</h4>
-                        <p>¥600</p>
+                        <p>¥630</p>
                         <h6>白身フライとポテトのコンビ</h6>
                     </div>
                 </div>
+
+
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
@@ -291,8 +292,23 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>ナゲット＆チップス</h4>
-                        <p>¥600</p>
+                        <p>¥630</p>
                         <h6>人気のナゲットとポテトをご一緒に</h6>
+                    </div>
+                </div>
+
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <!-- <picture>
+                            <source srcset="assets/images/paico.png" type="image/webp">
+                            <img src="assets/images/paico.png" alt="">
+                        </picture> -->
+                        <img src="assets/images/tansio.png" alt="">
+                    </div>
+                    <div class="menu__price">
+                        <h4>厚切りタン塩</h4>
+                        <p>¥550</p>
+                        <h6>上質な国産ポークを使用</h6>
                     </div>
                 </div>
 
@@ -307,7 +323,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>排骨（パイコー）</h4>
-                        <p>¥480</p>
+                        <p>¥500</p>
                         <h6>一口サイズで食べやすい</h6>
                     </div>
                 </div>
@@ -327,25 +343,24 @@ $the_query = new WP_Query($args);
                         <p>¥400</p>
                         <h6>ほんのり甘みを感じられる希少価値の高い岩塩を使用しております。</h6>
                         <!-- <h5>ハーフサイズ</h5> -->
-                        <p>ハーフサイズ ¥220</p>
+                        <p>ハーフサイズ ¥250</p>
                     </div>
                 </div>
 
 
-                <div class="menu__wrap apearInview">
+                <!-- <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
                             <source srcset="assets/images/webp/menu_cpotato.webp" type="image/webp">
                             <img src="assets/images/menu_cpotato.png" alt="">
                         </picture>
-                        <!-- <img src="assets/images/tebasaki.JPG" alt=""> -->
                     </div>
                     <div class="menu__price">
                         <h4>チーズポテト</h4>
                         <p>¥300</p>
                         <h6>チーズの旨味の一口スナック</h6>
                     </div>
-                </div>
+                </div> -->
 
 
                 <div class="menu__wrap apearInview">
@@ -373,7 +388,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>とり皮</h4>
-                        <p>¥150</p>
+                        <p>¥160</p>
                         <h6>サクッと香ばしい人気の一品</h6>
                     </div>
                 </div>
@@ -388,7 +403,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>ナンコツ</h4>
-                        <p>¥350</p>
+                        <p>¥400</p>
                         <h6>コリコリ食感がたまりません！</h6>
                     </div>
                 </div>
@@ -403,7 +418,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>砂肝</h4>
-                        <p>¥350</p>
+                        <p>¥370</p>
                         <h6>コリっとした食感が美味しい</h6>
                     </div>
                 </div>
@@ -418,7 +433,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>台湾チキンナゲット</h4>
-                        <p>¥330</p>
+                        <p>¥350</p>
                         <h6>肉厚ジューシー！スパイシー！</h6>
                     </div>
                 </div>
@@ -434,7 +449,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>塩ほるもん</h4>
-                        <p>¥450</p>
+                        <p>¥500</p>
                         <h6>特製塩ダレに漬け込みました</h6>
                     </div>
                 </div>
@@ -448,7 +463,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>とろほるから揚げ</h4>
-                        <p>¥500</p>
+                        <p>¥550</p>
                         <h6>ホルモンの旨味が味わえます</h6>
                     </div>
                 </div>
@@ -520,7 +535,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>山賊弁当</h4>
-                        <p>¥700</p>
+                        <p>¥750</p>
                     </div>
                 </div>
 
@@ -549,7 +564,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>鶏排弁当</h4>
-                        <p>¥650</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
@@ -594,7 +609,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>鶏排南蛮弁当</h4>
-                        <p>¥700</p>
+                        <p>¥750</p>
                     </div>
                 </div>
 
@@ -609,7 +624,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>ルーローハン</h4>
-                        <p>¥650</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
@@ -624,7 +639,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>ニューローハン</h4>
-                        <p>¥700</p>
+                        <p>¥750</p>
                     </div>
                 </div>
 
@@ -639,7 +654,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>チーローハン</h4>
-                        <p>¥600</p>
+                        <p>¥650</p>
                     </div>
                 </div>
 
@@ -654,7 +669,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>高菜明太弁当</h4>
-                        <p>¥600</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
@@ -669,7 +684,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>ジーパイカリー</h4>
-                        <p>¥700</p>
+                        <p>¥750</p>
                     </div>
                 </div>
 
