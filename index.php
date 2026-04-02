@@ -214,26 +214,24 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>熟成からあげ<br>（もも肉）</h4>
-                        <p>4個入り¥340</p>
-                        <p>6個入り¥510</p>
-                        <p>8個入り¥680</p>
+                        <p>4個入り¥400</p>
+                        <p>6個入り¥600</p>
+                        <p>8個入り¥800</p>
+                        <p>からあげ棒(7個付)¥700</p>
+                        
                         <h6>香り高さが特徴のオリジナルからあげです。</h6>
                     </div>
                 </div>
 
                 
-                <div class="menu__wrap apearInview">
+                <!-- <div class="menu__wrap apearInview">
                     <div class="menu__image">
-                        <!-- <picture>
-                            <source srcset="assets/images/webp/menu_karaage.webp" type="image/webp">
-                            <img src="assets/images/menu_karaage.png" alt="">
-                        </picture> -->
                         <img src="assets/images/karaagebou.png" alt="">
                     </div>
                     <div class="menu__price">
                         
                     </div>
-                </div>
+                </div> -->
                 
 
                 <div class="menu__wrap apearInview">
@@ -566,7 +564,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>熟成からあげ弁当</h4>
-                        <p>¥650</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
@@ -581,7 +579,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>２種のからあげ弁当</h4>
-                        <p>¥650</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
@@ -685,7 +683,7 @@ $the_query = new WP_Query($args);
                     </div>
                     <div class="menu__price">
                         <h4>とりめし</h4>
-                        <p>¥650</p>
+                        <p>¥700</p>
                     </div>
                 </div>
 
