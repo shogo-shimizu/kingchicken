@@ -238,12 +238,12 @@ $the_query = new WP_Query($args);
                             <source srcset="assets/images/paico.png" type="image/webp">
                             <img src="assets/images/paico.png" alt="">
                         </picture> -->
-                        <img src="assets/images/torimoyasi.png" alt="">
+                        <img src="assets/images/negikaraage.png" alt="">
                     </div>
                     <div class="menu__price">
-                        <h4>とりもやし</h4>
-                        <p>¥600</p>
-                        <h6>シャキシャキもやしと鶏肉あんかけ</h6>
+                        <h4>ネギからあげ</h4>
+                        <p>¥500</p>
+                        <h6>シャキシャキの白髪ねぎをたっぷりと</h6>
                     </div>
                 </div>
 
@@ -308,6 +308,7 @@ $the_query = new WP_Query($args);
                     <div class="menu__price">
                         <h4>厚切りタン塩</h4>
                         <p>¥550</p>
+                        <p>ネギのせ¥600</p>
                         <h6>上質な国産ポークを使用</h6>
                     </div>
                 </div>
@@ -517,11 +518,27 @@ $the_query = new WP_Query($args);
                             <source srcset="assets/images/webp/toriben.webp" type="image/webp">
                             <img src="assets/images/toriben.png" alt="">
                         </picture> -->
+                        <img src="assets/images/negidon.png" alt="">
+                    </div>
+                    <div class="menu__price">
+                        <h4>ネギからあげ弁当</h4>
+                        <p>¥700</p>
+                    </div>
+                </div>
+
+                
+                <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <!-- <picture>
+                            <source srcset="assets/images/webp/toriben.webp" type="image/webp">
+                            <img src="assets/images/toriben.png" alt="">
+                        </picture> -->
                         <img src="assets/images/tansio-bento.png" alt="">
                     </div>
                     <div class="menu__price">
                         <h4>上タン塩弁当</h4>
                         <p>¥800</p>
+                        <p>ネギのせ¥850</p>
                     </div>
                 </div>
 
@@ -538,21 +555,6 @@ $the_query = new WP_Query($args);
                         <p>¥750</p>
                     </div>
                 </div>
-
-                <div class="menu__wrap apearInview">
-                    <div class="menu__image">
-                        <!-- <picture>
-                            <source srcset="assets/images/webp/toriben.webp" type="image/webp">
-                            <img src="assets/images/toriben.png" alt="">
-                        </picture> -->
-                        <img src="assets/images/paico-bento.png" alt="">
-                    </div>
-                    <div class="menu__price">
-                        <h4>パイコー弁当</h4>
-                        <p>¥700</p>
-                    </div>
-                </div>
-
 
                 <div class="menu__wrap apearInview">
                     <div class="menu__image">
@@ -628,20 +630,33 @@ $the_query = new WP_Query($args);
                     </div>
                 </div>
 
-
                 <div class="menu__wrap apearInview">
+                    <div class="menu__image">
+                        <!-- <picture>
+                            <source srcset="assets/images/webp/toriben.webp" type="image/webp">
+                            <img src="assets/images/toriben.png" alt="">
+                        </picture> -->
+                        <img src="assets/images/paico-bento.png" alt="">
+                    </div>
+                    <div class="menu__price">
+                        <h4>パイコー弁当</h4>
+                        <p>¥700</p>
+                    </div>
+                </div>
+
+
+                <!-- <div class="menu__wrap apearInview">
                     <div class="menu__image">
                         <picture>
                             <source srcset="assets/images/webp/takana.webp" type="image/webp">
                             <img src="assets/images/takana.png" alt="">
                         </picture>
-                        <!-- <img src="assets/images/karaagebento.JPG" alt=""> -->
                     </div>
                     <div class="menu__price">
                         <h4>ニューローハン</h4>
                         <p>¥750</p>
                     </div>
-                </div>
+                </div> -->
 
 
                 <div class="menu__wrap apearInview">
